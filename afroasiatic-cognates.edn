@@ -1,0 +1,42 @@
+{
+ :langfamily "Afroasiatic"}
+:sgpref "aa"}
+:datasources [{:Ehret1995 "Eh."} 
+              {:Orel&Stolbova1995 "O&S."}]
+:datasourceNotes ""}
+:geodemoURL "http://www.ethnologue.com/language/bej"}
+:geodemoTXT ""}
+:cogsets 
+*{
+  :ba  {:lemma "*ba" :gloss "not be there, negative" :datasource "Eh.2"}
+  :bak {:lemma "*bak-" :gloss "strike, squeeze" :datasource "O&S.194" :cognates
+        [{:north-omotic
+          [{:language "gamo" :lemma "bak-" :gloss "strike" :notes ""}]}]}
+  :pir {:lemma "*pir-" :gloss "fly v." :datasource "Eh.51"}
+  :fir {:lemma "*-fir-" :gloss "flower, bear fruit" :datasource "Eh.85"}
+  :dim {:lemma "*dim-/*dam-" :gloss "blood" :datasource "Eh.140, O&S.639" :cognates
+        [{:south-omotic
+          [{:language "aari" :lemma "zamʔi" :gloss "blood" :notes ""}]}]}
+  :dar {:lemma "*-dar-" :gloss "enlarge, increase" :datasource "Eh.150"}
+  :tuf {:lemma "*-tuf-" :gloss "to spit" :datasource "Eh.162 O&S.2413"}
+  :zaa {:lemma "*-zaaʕ-" :gloss "rend, tear" :datasource "Eh.208" :cognates
+        [{:north-omotic
+          [{:language "gamo" :lemma "zaʔ-" :gloss "split" :notes ""}]}]}
+  :sum {:lemma "*sum-/*sim-" :gloss "name" :datasource "Eh.220 O&S.2304"}
+  :sin {:lemma "*sin-/*san-" :gloss "nose" :datasource "Eh.222, O&S.2194"}
+  :gad {:lemma "*gad-/*gud-" :gloss "be big" :datasource "Eh.265, O&S.867"}
+  :geh {:lemma "*-geh-" :gloss "speak" :datasource "Eh.274, O&S.911 *gay-"}
+  :kop {:lemma "*kop 'sole" :datasource "Eh.327, O&S.1406 ('*kab- shoe, sandal')"}
+  :kama {:lemma "*kamaʔ-/*kamay-" :gloss "food" :datasource "O&S.1424" :cognates
+         [{:east-cushitic
+           [{:language "afar" :lemma "-okm-" :gloss "eat" :notes ""}]}]}
+  :qar {:lemma "*k'ar-" :gloss "tip, point" :datasource "Eh.424, O&S.1549 (*k'ar- horn)"}
+  :sam {:lemma "*s'am-" :gloss "to sour" :datasource "Eh.535"}
+  :man {:lemma "*man-/*min-" :gloss "house" :datasource "O&S.1723"}
+  :nam {:lemma "*nam-/*nim-" :gloss "man" :datasource "Eh.621, O&S.1841"}
+  :xxx {:lemma "*" :gloss "" :datasource "" :cognates
+         [{:
+           [{:language "" :lemma "" :gloss "" :notes ""}]
+           }
+          ]}
+  }
